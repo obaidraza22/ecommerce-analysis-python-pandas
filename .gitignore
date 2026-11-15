@@ -1,0 +1,11 @@
+cat << 'EOF' > .gitignore
+# Data files (keep raw and processed CSVs local)
+data/raw/*.csv
+data/processed/*.csv
+
+# Jupyter & Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+EOF
